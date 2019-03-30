@@ -8,3 +8,13 @@ C:\Users\1234\source\repos\User Registration\User Registration\obj\Debug\User Re
 C:\Users\1234\source\repos\User Registration\User Registration\obj\Debug\User Registration.csproj.CoreCompileInputs.cache
 C:\Users\1234\source\repos\User Registration\User Registration\obj\Debug\User Registration.exe
 C:\Users\1234\source\repos\User Registration\User Registration\obj\Debug\User Registration.pdb
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\bin\Debug\User Registration.exe.config
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\bin\Debug\User Registration.exe
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\bin\Debug\User Registration.pdb
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\obj\Debug\User Registration.csprojAssemblyReference.cache
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\obj\Debug\User_Registration.Form1.resources
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\obj\Debug\User_Registration.Properties.Resources.resources
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\obj\Debug\User Registration.csproj.GenerateResource.cache
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\obj\Debug\User Registration.csproj.CoreCompileInputs.cache
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\obj\Debug\User Registration.exe
+C:\Users\1234\Documents\GitHub\User_Registration_Or_Sign_Up\User Registration\obj\Debug\User Registration.pdb

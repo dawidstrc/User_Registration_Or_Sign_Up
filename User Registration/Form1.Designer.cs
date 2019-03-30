@@ -34,16 +34,18 @@
             this.TxtContact = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.TxtUsername = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.TxtPassword = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.TxtConfirmPassword = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnSubmit = new System.Windows.Forms.Button();
             this.TxtAddress = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.TxtFirstName = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -102,13 +104,13 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Address";
             // 
-            // textBox5
+            // TxtUsername
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox5.Location = new System.Drawing.Point(332, 284);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(252, 29);
-            this.textBox5.TabIndex = 9;
+            this.TxtUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TxtUsername.Location = new System.Drawing.Point(332, 284);
+            this.TxtUsername.Name = "TxtUsername";
+            this.TxtUsername.Size = new System.Drawing.Size(252, 29);
+            this.TxtUsername.TabIndex = 9;
             // 
             // label5
             // 
@@ -120,13 +122,13 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Username";
             // 
-            // textBox6
+            // TxtPassword
             // 
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox6.Location = new System.Drawing.Point(332, 323);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(252, 29);
-            this.textBox6.TabIndex = 11;
+            this.TxtPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TxtPassword.Location = new System.Drawing.Point(332, 323);
+            this.TxtPassword.Name = "TxtPassword";
+            this.TxtPassword.Size = new System.Drawing.Size(252, 29);
+            this.TxtPassword.TabIndex = 11;
             // 
             // label6
             // 
@@ -138,13 +140,13 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Password";
             // 
-            // textBox7
+            // TxtConfirmPassword
             // 
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox7.Location = new System.Drawing.Point(332, 363);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(252, 29);
-            this.textBox7.TabIndex = 13;
+            this.TxtConfirmPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TxtConfirmPassword.Location = new System.Drawing.Point(332, 363);
+            this.TxtConfirmPassword.Name = "TxtConfirmPassword";
+            this.TxtConfirmPassword.Size = new System.Drawing.Size(252, 29);
+            this.TxtConfirmPassword.TabIndex = 13;
             // 
             // label7
             // 
@@ -156,14 +158,15 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "Confirm Password";
             // 
-            // button1
+            // BtnSubmit
             // 
-            this.button1.Location = new System.Drawing.Point(421, 415);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnSubmit.Location = new System.Drawing.Point(421, 415);
+            this.BtnSubmit.Name = "BtnSubmit";
+            this.BtnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.BtnSubmit.TabIndex = 15;
+            this.BtnSubmit.Text = "Submit";
+            this.BtnSubmit.UseVisualStyleBackColor = true;
+            this.BtnSubmit.Click += new System.EventHandler(this.BtnSubmit_Click);
             // 
             // TxtAddress
             // 
@@ -193,20 +196,44 @@
             this.TxtFirstName.Size = new System.Drawing.Size(252, 29);
             this.TxtFirstName.TabIndex = 18;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label9.ForeColor = System.Drawing.Color.Red;
+            this.label9.Location = new System.Drawing.Point(590, 287);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(17, 21);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "*";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(590, 326);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(17, 21);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "*";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.TxtFirstName);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.TxtAddress);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.BtnSubmit);
+            this.Controls.Add(this.TxtConfirmPassword);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.TxtPassword);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.TxtUsername);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.TxtContact);
@@ -229,16 +256,18 @@
         private System.Windows.Forms.TextBox TxtContact;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TxtUsername;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox TxtPassword;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox TxtConfirmPassword;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnSubmit;
         private System.Windows.Forms.TextBox TxtAddress;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox TxtFirstName;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }
 
